@@ -13,7 +13,7 @@ deploy:
   region: "eu-west-1"
   app: "docker-react-fg"
   env: "DockerReactFg-env"
-  bucket_name: "elasticbeanstalk-eu-west-1-805630386849"
+  bucket_name: $AWS_BUCKET_NAME
   bucket_path: "docker-react-fg"
   on:
     branch: master
